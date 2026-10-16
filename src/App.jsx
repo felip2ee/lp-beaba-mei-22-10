@@ -237,12 +237,12 @@ function App() {
                 <p className="text-white/70 text-xs md:text-sm">anos no mercado financeiro</p>
               </div>
               <div className="bg-secondary/60 border border-accent/20 rounded-xl p-3">
-                <p className="text-accent font-display font-black text-2xl md:text-3xl">R$ 400 mi</p>
+                <p className="text-accent font-display font-black text-2xl md:text-3xl">R$ 500 mi</p>
                 <p className="text-white/70 text-xs md:text-sm">em operações de crédito aprovadas</p>
               </div>
             </div>
             <p className="text-white/80 leading-relaxed mb-4">
-              Participou da estruturação de mais de R$ 400 milhões em crédito pra centenas de empresas. Viu de perto por que empresa boa toma "não" e o que muda quando ela chega preparada.
+              Participou da estruturação de mais de R$ 500 milhões em crédito pra centenas de empresas. Viu de perto por que empresa boa toma "não" e o que muda quando ela chega preparada.
             </p>
             <p className="text-white/80 leading-relaxed">
               Nesta edição, ela traduz as novas regras do MEI pra linguagem de quem precisa decidir: o que mudou, o que fazer primeiro e como usar crédito como alavanca, não como dívida.
