@@ -24,6 +24,6 @@ Landing page de **evento presencial** (palestra), clonada de `lp-beaba-9rs`. Mes
 - Regularização de dívidas sempre com a ressalva "conforme as condições aplicáveis".
 
 ## Pendências
-- WhatsApp confirmado: 556381089024.
+- WhatsApp confirmado: 556332157404.
 - Confirmar domínio de publicação.
 - Preço/forma de inscrição não está na página (a copy manda falar no WhatsApp).

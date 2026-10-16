@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { CheckCircle2, ChevronDown, ArrowRight, Calendar, Clock, MapPin, MessageCircle, FileText, TrendingUp, Landmark, Target, Compass, Scale } from 'lucide-react';
 
 // Contato do evento. Trocar aqui se mudar o número ou a mensagem.
-const WHATSAPP_NUMERO = '556381089024';
+const WHATSAPP_NUMERO = '556332157404';
 const WHATSAPP_MENSAGEM = 'Olá! Quero garantir minha vaga no Beabá do Crédito, edição especial Novas Regras do MEI, dia 22 de outubro.';
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(WHATSAPP_MENSAGEM)}`;
 const CTA_TEXT = 'Garantir minha vaga';
