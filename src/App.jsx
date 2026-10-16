@@ -5,7 +5,7 @@ import { CheckCircle2, ChevronDown, ArrowRight, Calendar, Clock, MapPin, Message
 const WHATSAPP_NUMERO = '556381089024';
 const WHATSAPP_MENSAGEM = 'Olá! Quero garantir minha vaga no Beabá do Crédito, edição especial Novas Regras do MEI, dia 22 de outubro.';
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(WHATSAPP_MENSAGEM)}`;
-const CTA_TEXT = 'Quero garantir minha vaga';
+const CTA_TEXT = 'Garantir minha vaga';
 
 const EVENTO = {
   data: '22 de outubro, quinta-feira',
@@ -78,11 +78,11 @@ function App() {
       href={WHATSAPP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className={`btn-magnetic inline-flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-[#F9D776] text-[#332200] font-bold uppercase tracking-wide rounded-full shadow-[0_0_30px_rgba(220,164,82,0.4)] hover:shadow-[0_0_40px_rgba(220,164,82,0.65)] transition-all ${className}`}
+      className={`btn-magnetic inline-flex items-center justify-center gap-2 whitespace-nowrap bg-gradient-to-r from-accent to-[#F9D776] text-[#332200] font-bold uppercase tracking-wide rounded-full shadow-[0_0_30px_rgba(220,164,82,0.4)] hover:shadow-[0_0_40px_rgba(220,164,82,0.65)] transition-all ${className}`}
     >
       <MessageCircle className="w-5 h-5 shrink-0" />
       {text}
-      <ArrowRight className="w-5 h-5 shrink-0" />
+      <ArrowRight className="w-5 h-5 shrink-0 hidden sm:block" />
     </a>
   );
 
@@ -156,7 +156,7 @@ function App() {
           <EventoInfo className="w-full mt-5 md:mt-6" />
 
           <div className="w-full mt-5 md:mt-6">
-            <CtaButton className="w-full sm:w-auto text-base sm:text-lg md:text-xl px-6 py-4 md:px-12 md:py-5" />
+            <CtaButton className="w-full sm:w-auto text-base md:text-xl px-5 py-4 md:px-12 md:py-5" />
             <p className="mt-2 text-white/60 text-xs sm:text-sm">
               Vagas limitadas · Atendimento pelo WhatsApp
             </p>
@@ -207,7 +207,7 @@ function App() {
           </div>
 
           <div className="mt-10 text-center">
-            <CtaButton className="w-full md:w-auto text-lg md:text-xl px-10 py-5" />
+            <CtaButton className="w-full md:w-auto text-base md:text-xl px-5 py-4 md:px-10 md:py-5" />
           </div>
         </div>
       </section>
@@ -254,7 +254,7 @@ function App() {
       {/* LOCAL */}
       <section className="py-20 md:py-24 px-5 bg-primary">
         <div className="max-w-3xl mx-auto fade-up">
-          <div className="bg-secondary/40 border-2 border-accent rounded-[2.5rem] p-8 md:p-12 text-center shadow-[0_0_60px_rgba(220,164,82,0.15)]">
+          <div className="bg-secondary/40 border-2 border-accent rounded-[2.5rem] p-6 md:p-12 text-center shadow-[0_0_60px_rgba(220,164,82,0.15)]">
             <p className="text-accent/80 text-sm font-semibold uppercase tracking-widest mb-3">Beabá do Crédito</p>
             <h2 className="text-2xl md:text-4xl font-display font-bold text-accent uppercase mb-6">
               Edição especial: Novas Regras do MEI
@@ -273,7 +273,7 @@ function App() {
               Ver no mapa
             </a>
             <div className="mt-8">
-              <CtaButton className="w-full md:w-auto text-lg px-10 py-5" />
+              <CtaButton className="w-full md:w-auto text-base md:text-lg px-5 py-4 md:px-10 md:py-5" />
             </div>
           </div>
         </div>
@@ -304,7 +304,7 @@ function App() {
           <h2 className="text-2xl md:text-4xl font-display font-bold text-white uppercase mb-3">Quer participar?</h2>
           <h3 className="text-xl md:text-2xl text-accent font-bold mb-3">Entre em contato pra obter informações e garantir sua vaga.</h3>
           <p className="text-white/60 mb-8">22 de outubro, das 19h às 21h, no Centro de Formação Vira o Jogo, em Palmas. Esperamos você!</p>
-          <CtaButton className="w-full md:w-auto text-lg px-10 py-5" />
+          <CtaButton className="w-full md:w-auto text-base md:text-lg px-5 py-4 md:px-10 md:py-5" />
         </div>
 
         <div className="max-w-3xl mx-auto pt-8 border-t border-white/5">
